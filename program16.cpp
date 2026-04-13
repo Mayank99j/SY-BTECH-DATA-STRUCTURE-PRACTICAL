@@ -40,7 +40,7 @@ void DFS(int node) {
 
 // BFS
 void BFS(int start) {
-    int queue[MAX], front = 0, rear = 0;
+    int queue[MAX], front = 0, rear =  0;
 
     for (int i = 0; i < n; i++)
         visited[i] = 0;
